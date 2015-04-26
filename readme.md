@@ -10,6 +10,11 @@ VVV is installed in the ~/vagrant-local directory.
 * `cd` into directory
 * Type `source init.sh` in the command line.
 
+If you don't have command line tools installed, the operating system will prompt to install them.
+
+*Note:* You will need to enter your password a few times for `sudo`. 
+
+
 ## Programs and Packages Installed:
 
 1. XCode Command Line Tools
@@ -30,3 +35,4 @@ VVV is installed in the ~/vagrant-local directory.
    * wget
    * WP CLI
 6. VVV-Dashboard
+

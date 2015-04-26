@@ -28,13 +28,23 @@ source $inc_dir/vvv.sh
 # Run other scripts in the assets directory
 sh_array=($inc_dir/*.sh)
 
-for f in "${sh_array[@]}"; 
+for f in "${sh_array[@]}";
 do
 	if [ $f = "$inc_dir/colors.sh" ];
 	then
-		
+
 	else
 		echo -e "${yellow}Running $f${NC}"
 		source $f
 	fi
 done
+
+########################
+# Complete
+echo -e "${green}########################################${NC}"
+echo -e "${green}#${NC}"
+echo -e ""
+echo -e "${green}VVV Setup Complete ${NC}"
+echo -e ""
+echo -e "${green}#${NC}"
+echo -e "${green}########################################${NC}"
